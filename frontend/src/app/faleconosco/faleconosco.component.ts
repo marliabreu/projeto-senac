@@ -22,7 +22,6 @@ export class FaleConoscoComponent {
   ) { }
 
   onSubmit() {
-    console.log("oi")
     const body: ClienteRequest = {
       nome: this.form.controls.nome.value!,
       email: this.form.controls.email.value!,

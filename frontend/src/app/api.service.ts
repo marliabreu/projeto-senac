@@ -12,7 +12,6 @@ export class ApiService {
   constructor(private httpClient: HttpClient) { }
 
   enviarMensagem(body: ClienteRequest) {
-    // console.log(body)
     return this.httpClient.post(`${this.URL}`, body).subscribe(resultado =>console.log(resultado))
   }
 }
