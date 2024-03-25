@@ -42,6 +42,7 @@ import { ApiService } from "./api.service";
   providers: [
     provideNgxMask(),
     provideHttpClient(),
+    HttpClientModule,
     ApiService
   ]
 })

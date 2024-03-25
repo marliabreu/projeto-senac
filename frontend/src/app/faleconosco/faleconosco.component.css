@@ -36,6 +36,13 @@
     font-size: 17px;
   }
 
+  .form-control {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-size: 17px;
+  }
+
   .saibaMais {
     text-align: center;
     font-family: 'Quicksand', sans-serif;
